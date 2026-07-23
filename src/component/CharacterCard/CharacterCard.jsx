@@ -6,7 +6,7 @@ export const CharacterCard = ({character}) => {
             <div>
             <h3 className={styles.title}>{character.name}</h3>
             <p className={styles.info}>Status: {character.status}</p>
-            <p className={styles.info}>Specie:{character.species}</p>
+            <p className={styles.info}>Specie: {character.species}</p>
             <p className={styles.info}> Origin: {character.origin?.name}</p>
             <p className={styles.info}>Location: {character.location.name}</p>
             </div>

@@ -1,4 +1,4 @@
-import { useFetch } from "../../hooks/useFetch";
+import { useFetch } from "../../Hooks/useFetch";
 import { CharacterCard } from "../CharacterCard/CharacterCard";
 import styles from './CharactersGrid.module.css'
 
