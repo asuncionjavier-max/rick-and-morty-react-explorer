@@ -1,0 +1,19 @@
+.footer {
+  background-color: #1a1c20;
+  border-top: 1px solid #2d3748;
+  padding: 1.5rem;
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.9rem;
+  margin-top: auto; /* Ayuda a mantenerse abajo si hay poco contenido */
+}
+
+.link {
+  color: #00b5cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

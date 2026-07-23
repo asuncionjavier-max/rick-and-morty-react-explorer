@@ -1,0 +1,13 @@
+.header{
+    background-color: #1a1c20;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    width: 100%;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 900;
+    color:#97ce4c;
+}
