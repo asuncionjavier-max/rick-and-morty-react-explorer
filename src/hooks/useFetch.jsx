@@ -14,7 +14,7 @@ export const useFetch = (endpoint) =>{
                 setError (null);
 
                 const res = await apiClient.get(endpoint);
-                setData(res.data.results);
+                setData (res.data.results ? res.data.results : res.data);
                 console.log(res.data.results)
 
             } catch (err) {
