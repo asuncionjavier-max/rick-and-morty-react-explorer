@@ -2,6 +2,7 @@ import { useFetch } from "../../Hooks/useFetch";
 import { CharacterCard } from "../CharacterCard/CharacterCard";
 import styles from './CharactersGrid.module.css'
 
+
 export const CharactersGrid = () =>{
     const {data: characters , loading, error} = useFetch('/character')
     if(loading) return <div>Cargando a los personajes del universo C-137...</div>;
