@@ -5,9 +5,7 @@ import { Header } from "../../component/Header/Header";
 export const HomePage = () =>{
     return(
         <main>
-            <Header />
             <CharactersGrid />
-            <Footer />
         </main>
     );
 };
