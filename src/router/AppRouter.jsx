@@ -1,6 +1,7 @@
 import { createBrowserRouter, BrowserRouter, RouterProvider } from 'react-router-dom'
 import { HomePage } from '../pages/HomePage/HomePage'
 import CharacterDetailPage from '../pages/CharacterDetailPage/CharacterDetailPage'
+import LocationDetailPage from '../pages/LocationDetailPage/LocationDetailPage'
 import Layout from '../component/Layout/Layout'
 
 const router = createBrowserRouter([
@@ -10,6 +11,7 @@ const router = createBrowserRouter([
         children: [
         {index: true, element: <HomePage />},
         {path: "/character/:characterId",element: <CharacterDetailPage />},
+        {path: "/location/:locationId", element: <LocationDetailPage />},
         ],
     },
 ])
